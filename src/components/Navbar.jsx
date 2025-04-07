@@ -46,24 +46,24 @@ const Navbar = () => {
 
       <div className={`lg:hidden ${isOpen ? "block" : "hidden"} bg-gray-800`}>
         <ul className="flex flex-col items-center py-4 space-y-4 text-lg">
+        <li>
+            <Link to="/codeforces" className="hover:text-gray-400">
+              CodeForces
+            </Link>
+          </li>
           <li>
-            <Link to="#" className="hover:text-gray-400">
+            <Link to="/weather" className="hover:text-gray-400">
+              Weather
+            </Link>
+          </li>
+          <li>
+            <Link to="/github" className="hover:text-gray-400">
+              GitHub
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="hover:text-gray-400">
               Home
-            </Link>
-          </li>
-          <li>
-            <Link to="#" className="hover:text-gray-400">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="#" className="hover:text-gray-400">
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link to="#" className="hover:text-gray-400">
-              Contact
             </Link>
           </li>
         </ul>
